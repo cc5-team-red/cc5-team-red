@@ -73,14 +73,13 @@ body {
     border-bottom: 20px solid grey;
 }
 
-.footer-container,
-.main aside {
+.footer-container {
     border-top: 20px solid grey;
 }
 
 .header-container,
-.footer-container,
-.main aside {
+.footer-container
+ {
     background: #F9A800;
 }
 
@@ -125,15 +124,16 @@ nav a:hover {
    ============== */
 
 .main {
+    display: flex;
     padding: 30px 0;
 }
 
 .main article h1 {
+    width: 500px;
     font-size: 2em;
 }
 
 .main aside {
-    color: #2B2B2C;
     padding: 0px 5% 10px;
 }
 
@@ -153,9 +153,22 @@ nav a:hover {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.title {
+    display: flex;
+    align-items: center;
+}
 
+.title img {
+    height: 37px;
+}
 
+.title span {
+    margin-left: 10px;
+}
 
+.downloadApp img {
+    width: 150px;
+}
 
 
 
@@ -213,8 +226,7 @@ nav a:hover {
     WIDE: CSS3 Effects
    ==================== */
 
-    .header-container,
-    .main aside {
+    .header-container {
         -webkit-box-shadow: 0 5px 10px #aaa;
            -moz-box-shadow: 0 5px 10px #aaa;
                 box-shadow: 0 5px 10px #aaa;
@@ -224,9 +236,9 @@ nav a:hover {
     WIDE: Menu
    ============ */
 
-    .title {
+    /* .title {
         float: left;
-    }
+    } */
 
     nav {
         float: right;
@@ -243,7 +255,6 @@ nav a:hover {
     }
 
     .main aside {
-        float: right;
         height: 420px;
     }
 }
