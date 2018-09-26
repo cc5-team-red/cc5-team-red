@@ -51,13 +51,13 @@ textarea {
     padding: 0.2em 0;
 }
 
-
 /* ===== Initializr Styles ==================================================
    Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
    ========================================================================== */
 
 body {
-    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+    font-size: 16px/26px;
+    font-family: 'Lato', sans-serif;
 }
 
 .wrapper {
@@ -131,6 +131,11 @@ nav a:hover {
 .main article h1 {
     width: 600px;
     font-size: 2em;
+    font-weight: 900;
+}
+
+.main article h2 {
+    font-weight: 700;
 }
 
 .main aside {
@@ -156,6 +161,9 @@ nav a:hover {
 .title {
     display: flex;
     align-items: center;
+    font-size: 2em;
+    font-weight: 900;
+    margin: 0.67em 0;
 }
 
 .title img {
@@ -166,24 +174,18 @@ nav a:hover {
     margin-left: 10px;
 }
 
-.getTheApp-container {
-    flex: 1;
-    flex-direction: row;
-    justify-content: flex-start;
-}
-
 .getTheApp-image {
-    width: 230px;
+    width: 180px;
     margin-top: 10px;
-}
-.getTheApp-child{
-
 }
 
 .section_indent {
     margin-left: 30px;
 }
 
+.section_marginBottom {
+    margin-bottom: 30px;
+}
 .github {
     margin-top: 1px;
 }
@@ -211,7 +213,6 @@ nav a:hover {
 
 #mc_embed_signup_scroll label {
     margin-top: 5px;
-    font-weight: bold;
     display: block;
 }
 
@@ -233,12 +234,6 @@ nav a:hover {
 #mc_embed_signup input {
     display: inline-block;
 }
-
-
-
-
-
-
 
 /* ==========================================================================
    Media Queries
@@ -314,7 +309,8 @@ nav a:hover {
     }
 
     .main aside {
-        height: 420px;
+        float: right;
+        max-width: 640px;
     }
 }
 
@@ -325,7 +321,7 @@ nav a:hover {
    =============== */
 
     .wrapper {
-        width: 1026px; /* 1140px - 10% for margins */
+        width: 1076px; /* 1140px - 10% for margins */
         margin: 0 auto;
     }
 }
