@@ -51,13 +51,13 @@ textarea {
     padding: 0.2em 0;
 }
 
+
 /* ===== Initializr Styles ==================================================
    Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
    ========================================================================== */
 
 body {
-    font-size: 16px/26px;
-    font-family: 'Lato', sans-serif;
+    font: 16px/26px Helvetica, Helvetica Neue, Arial;
 }
 
 .wrapper {
@@ -129,13 +129,8 @@ nav a:hover {
 }
 
 .main article h1 {
-    width: 600px;
+    width: 500px;
     font-size: 2em;
-    font-weight: 900;
-}
-
-.main article h2 {
-    font-weight: 700;
 }
 
 .main aside {
@@ -161,9 +156,6 @@ nav a:hover {
 .title {
     display: flex;
     align-items: center;
-    font-size: 2em;
-    font-weight: 900;
-    margin: 0.67em 0;
 }
 
 .title img {
@@ -174,18 +166,11 @@ nav a:hover {
     margin-left: 10px;
 }
 
-.getTheApp-image {
-    width: 180px;
-    margin-top: 10px;
+.downloadApp img {
+    margin-top: 70px;
+    width: 230px;
 }
 
-.section_indent {
-    margin-left: 30px;
-}
-
-.section_marginBottom {
-    margin-bottom: 30px;
-}
 .github {
     margin-top: 1px;
 }
@@ -213,15 +198,16 @@ nav a:hover {
 
 #mc_embed_signup_scroll label {
     margin-top: 5px;
+    font-weight: bold;
     display: block;
 }
 
 #mc_embed_signup_scroll input {
-    
     margin-top: 5px;
     padding: 10px;
     border-radius: 10px;
     margin-top: 10px;
+    margin-left: 10px;
     display: inline-block;
 }
 
@@ -234,6 +220,12 @@ nav a:hover {
 #mc_embed_signup input {
     display: inline-block;
 }
+
+
+
+
+
+
 
 /* ==========================================================================
    Media Queries
@@ -309,8 +301,7 @@ nav a:hover {
     }
 
     .main aside {
-        float: right;
-        max-width: 640px;
+        height: 420px;
     }
 }
 
@@ -321,7 +312,7 @@ nav a:hover {
    =============== */
 
     .wrapper {
-        width: 1076px; /* 1140px - 10% for margins */
+        width: 1026px; /* 1140px - 10% for margins */
         margin: 0 auto;
     }
 }
