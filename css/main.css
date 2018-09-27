@@ -57,6 +57,7 @@ textarea {
    ========================================================================== */
 
 body {
+    min-width: 600px;
     font: 16px/26px Helvetica, Helvetica Neue, Arial;
 }
 
@@ -231,7 +232,7 @@ nav a:hover {
    Media Queries
    ========================================================================== */
 
-@media only screen and (min-width: 480px) {
+@media only screen and (max-width: 480px) {
 
 /* ====================
     INTERMEDIATE: Menu
@@ -251,6 +252,10 @@ nav a:hover {
 
     nav li:last-child a {
         margin-right: 0;
+    }
+
+    aside {
+        display: none;
     }
 
 /* ========================
