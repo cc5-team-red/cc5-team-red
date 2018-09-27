@@ -25,9 +25,11 @@ img {
    ========================================================================== */
 
 body {
-  font-size: 16px/26px;
+  /* font-size: 16px/26px; */
   font-family: 'Lato', sans-serif;
-  /* min-width: 600px; */
+  width: 100%;
+  height: 100%;
+  margin: 0;
 }
 
 .wrapper {
@@ -43,6 +45,17 @@ body {
   border-bottom: 20px solid grey;
 }
 
+.main-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.mobile-display-container {
+  display: none;
+}
+
 .footer-container {
   border-top: 20px solid grey;
 }
@@ -55,10 +68,6 @@ body {
 
 .title {
   color: #2B2B2C;
-}
-
-article {
-  width: 100%;
 }
 
 .footer-container footer {
@@ -125,6 +134,53 @@ article {
   vertical-align: sub;
 }
 
+/* ==========================================================================
+  Media Queries
+  ========================================================================== */
+
+@media only screen and (max-width: 480px) {
+  .right-container {
+    display: none;
+  }
+
+  .mobile-display-container {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* .right-container {
+      display: none;
+  }
+
+  .mobile-display-container {
+    display: block;
+  } */
+/* ====================
+  WIDE: CSS3 Effects
+  ==================== */
+
+  .header-container {
+    -webkit-box-shadow: 0 5px 10px #aaa;
+        -moz-box-shadow: 0 5px 10px #aaa;
+            box-shadow: 0 5px 10px #aaa;
+  }
+}
+
+@media only screen
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+  .right-container {
+    display: none;
+  }
+  .mobile-display-container {
+    display: block;
+  }
+}
+
+
 /* mailchimp */
 #mc_embed_signup_scroll {
   /* margin-top: 100px; */
@@ -152,37 +208,4 @@ article {
 
 #mc_embed_signup input {
   display: inline-block;
-}
-
-/* ==========================================================================
-  Media Queries
-  ========================================================================== */
-
-@media only screen and (max-width: 480px) {
-
- 
-}
-
-@media only screen and (min-width: 768px) {
-
-/* ====================
-  WIDE: CSS3 Effects
-  ==================== */
-
-  .header-container {
-    -webkit-box-shadow: 0 5px 10px #aaa;
-        -moz-box-shadow: 0 5px 10px #aaa;
-            box-shadow: 0 5px 10px #aaa;
-  }
-}
-
-@media only screen and (min-width: 1140px) {
-}
-
-@media only screen
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-
 }
