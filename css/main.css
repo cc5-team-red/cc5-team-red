@@ -78,6 +78,9 @@ body {
 
 .title {
   color: #2B2B2C;
+  padding-left: 1rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
 }
 
 .footer-container footer {
@@ -101,7 +104,6 @@ body {
   align-items: center;
   font-size: 2em;
   font-weight: 900;
-  margin: 0.67em 0;
 }
 
 .title img {
