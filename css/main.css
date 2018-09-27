@@ -135,8 +135,14 @@ nav a:hover {
     font-weight: 900;
 }
 
+.main article sub {
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
 .main article h2 {
     font-weight: 700;
+    font-size: 1.5em;
 }
 
 .main aside {
@@ -185,7 +191,7 @@ nav a:hover {
 }
 
 .section_marginBottom {
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 .github {
     margin-top: 1px;
