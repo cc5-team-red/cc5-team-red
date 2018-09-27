@@ -1,28 +1,28 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 
 html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
 }
 
 ::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
+  background: #b3d4fc;
+  text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
-    text-shadow: none;
+  background: #b3d4fc;
+  text-shadow: none;
 }
 
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
 }
 
 audio,
@@ -31,24 +31,24 @@ iframe,
 img,
 svg,
 video {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 
 textarea {
-    resize: vertical;
+  resize: vertical;
 }
 
 .browserupgrade {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
 }
 
 /* ===== Initializr Styles ==================================================
@@ -56,14 +56,14 @@ textarea {
    ========================================================================== */
 
 body {
-    font-size: 16px/26px;
-    font-family: 'Lato', sans-serif;
-    min-width: 600px;
+  font-size: 16px/26px;
+  font-family: 'Lato', sans-serif;
+  /* min-width: 600px; */
 }
 
 .wrapper {
-    width: 90%;
-    margin: 0 5%;
+  width: 90%;
+  margin: 0 5%;
 }
 
 /* ===================
@@ -71,21 +71,25 @@ body {
    =================== */
 
 .header-container {
-    border-bottom: 20px solid grey;
+  border-bottom: 20px solid grey;
 }
 
 .footer-container {
-    border-top: 20px solid grey;
+  border-top: 20px solid grey;
 }
 
 .header-container,
 .footer-container
  {
-    background: #F9A800;
+  background: #F9A800;
 }
 
 .title {
-    color: #2B2B2C;
+  color: #2B2B2C;
+}
+
+article {
+  width: 100%;
 }
 
 /* ==============
@@ -93,31 +97,31 @@ body {
    ============== */
 
 nav ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 nav a {
-    display: block;
-    margin-bottom: 10px;
-    padding: 15px 0;
+  display: block;
+  margin-bottom: 10px;
+  padding: 15px 0;
 
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
 
-    color: black;
-    /* background: #ECECE7; */
+  color: black;
+  /* background: #ECECE7; */
 }
 
 nav a:hover,
 nav a:visited {
-    color: #2B2B2C;
+  color: #2B2B2C;
 }
 
 nav a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* ==============
@@ -125,320 +129,328 @@ nav a:hover {
    ============== */
 
 .main {
-    display: flex;
-    padding: 30px 0;
+  display: flex;
+  padding: 30px 0;
 }
 
 .main article h1 {
-    width: 600px;
-    font-size: 2em;
-    font-weight: 900;
+  width: 600px;
+  font-size: 2em;
+  font-weight: 900;
 }
 
 .main article h2 {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .main aside {
-    padding: 0px 5% 10px;
+  padding: 0px 5% 10px;
 }
 
 .footer-container footer {
-    color: #2B2B2C;
-    padding: 20px 0;
+  color: #2B2B2C;
+  padding: 20px 0;
 }
 
 /* ===============
-    ALL: IE Fixes
-   =============== */
+  ALL: IE Fixes
+  =============== */
 
 .ie7 .title {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
 .title {
-    display: flex;
-    align-items: center;
-    font-size: 2em;
-    font-weight: 900;
-    margin: 0.67em 0;
+  display: flex;
+  align-items: center;
+  font-size: 2em;
+  font-weight: 900;
+  margin: 0.67em 0;
 }
 
 .title img {
-    height: 37px;
+  height: 37px;
 }
 
 .title span {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .getTheApp-image {
-    width: 180px;
-    margin-top: 10px;
+  width: 180px;
+  margin-top: 10px;
 }
 
 .section_indent {
-    margin-left: 30px;
+  margin-left: 30px;
 }
 
 .section_marginBottom {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 .github {
-    margin-top: 1px;
+  margin-top: 1px;
 }
 
 .github a {
-    text-decoration-line: none;
+  text-decoration-line: none;
 }
 
 .github img {
-    margin-right: 5px;
-    width: 25px;
-    height: 25px;
+  margin-right: 5px;
+  width: 25px;
+  height: 25px;
 }
 
 .github div {
-    margin-top: 10px;
-    display: inline-block;
-    vertical-align: sub;
+  margin-top: 10px;
+  display: inline-block;
+  vertical-align: sub;
 }
 
 /* mailchimp */
 #mc_embed_signup_scroll {
-    /* margin-top: 100px; */
+  /* margin-top: 100px; */
 }
 
 #mc_embed_signup_scroll label {
-    margin-top: 5px;
-    display: block;
+  margin-top: 5px;
+  display: block;
 }
 
 #mc_embed_signup_scroll input {
-    
-    margin-top: 5px;
-    padding: 10px;
-    border-radius: 10px;
-    margin-top: 10px;
-    display: inline-block;
+  
+  margin-top: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  display: inline-block;
 }
 
 #mc_embed_signup {
-    background: #fff;
-    clear: left;
-    font: 14px Helvetica, Arial, sans-serif;
+  background: #fff;
+  clear: left;
+  font: 14px Helvetica, Arial, sans-serif;
 }
 
 #mc_embed_signup input {
-    display: inline-block;
+  display: inline-block;
 }
 
 /* ==========================================================================
-   Media Queries
-   ========================================================================== */
+  Media Queries
+  ========================================================================== */
 
 @media only screen and (max-width: 480px) {
 
 /* ====================
-    INTERMEDIATE: Menu
-   ==================== */
+  INTERMEDIATE: Menu
+  ==================== */
 
-    nav a {
-        float: left;
-        width: 27%;
-        margin: 0 1.7%;
-        padding: 25px 2%;
-        margin-bottom: 0;
-    }
+  nav a {
+    float: left;
+    width: 27%;
+    margin: 0 1.7%;
+    padding: 25px 2%;
+    margin-bottom: 0;
+  }
 
-    nav li:first-child a {
-        margin-left: 0;
-    }
+  nav li:first-child a {
+    margin-left: 0;
+  }
 
-    nav li:last-child a {
-        margin-right: 0;
-    }
+  nav li:last-child a {
+    margin-right: 0;
+  }
 
-    aside {
-        display: none;
-    }
+  aside {
+    display: none;
+  }
 
 /* ========================
-    INTERMEDIATE: IE Fixes
-   ======================== */
+  INTERMEDIATE: IE Fixes
+  ======================== */
 
-    nav ul li {
-        display: inline;
-    }
+  nav ul li {
+    display: inline;
+  }
 
-    .oldie nav a {
-        margin: 0 0.7%;
-    }
+  .oldie nav a {
+    margin: 0 0.7%;
+  }
 }
 
 @media only screen and (min-width: 768px) {
 
 /* ====================
-    WIDE: CSS3 Effects
-   ==================== */
+  WIDE: CSS3 Effects
+  ==================== */
 
-    .header-container {
-        -webkit-box-shadow: 0 5px 10px #aaa;
-           -moz-box-shadow: 0 5px 10px #aaa;
-                box-shadow: 0 5px 10px #aaa;
-    }
-
-/* ============
-    WIDE: Menu
-   ============ */
-
-    /* .title {
-        float: left;
-    } */
-
-    nav {
-        float: right;
-        width: 38%;
-    }
+  .header-container {
+    -webkit-box-shadow: 0 5px 10px #aaa;
+        -moz-box-shadow: 0 5px 10px #aaa;
+            box-shadow: 0 5px 10px #aaa;
+  }
 
 /* ============
-    WIDE: Main
-   ============ */
+  WIDE: Menu
+  ============ */
 
-    .main article {
-        float: left;
-        width: 57%;
-    }
+  /* .title {
+      float: left;
+  } */
 
-    .main aside {
-        float: right;
-        max-width: 640px;
-    }
+  nav {
+    float: right;
+    width: 38%;
+  }
+
+/* ============
+  WIDE: Main
+  ============ */
+
+  .main article {
+    float: left;
+    width: 57%;
+  }
+
+  .main aside {
+    float: right;
+    max-width: 640px;
+  }
 }
 
 @media only screen and (min-width: 1140px) {
 
 /* ===============
-    Maximal Width
-   =============== */
+  Maximal Width
+  =============== */
 
-    .wrapper {
-        width: 1076px; /* 1140px - 10% for margins */
-        margin: 0 auto;
-    }
+  .wrapper {
+    width: 1076px; /* 1140px - 10% for margins */
+    margin: 0 auto;
+  }
+}
+
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+
 }
 
 /* ==========================================================================
-   Helper classes
-   ========================================================================== */
+  Helper classes
+  ========================================================================== */
 
 .hidden {
-    display: none !important;
-    visibility: hidden;
+  display: none !important;
+  visibility: hidden;
 }
 
 .visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
 }
 
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
 }
 
 .invisible {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 .clearfix:before,
 .clearfix:after {
-    content: " ";
-    display: table;
+  content: " ";
+  display: table;
 }
 
 .clearfix:after {
-    clear: both;
+  clear: both;
 }
 
 .clearfix {
-    *zoom: 1;
+  *zoom: 1;
 }
 
 /* ==========================================================================
-   Print styles
-   ========================================================================== */
+  Print styles
+  ========================================================================== */
 
 @media print {
-    *,
-    *:before,
-    *:after {
-        background: transparent !important;
-        color: #000 !important;
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
+  *,
+  *:before,
+  *:after {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
 
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
 
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
 
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
 
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
-        content: "";
-    }
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: "";
+  }
 
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
 
-    thead {
-        display: table-header-group;
-    }
+  thead {
+    display: table-header-group;
+  }
 
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
 
-    img {
-        max-width: 100% !important;
-    }
+  img {
+    max-width: 100% !important;
+  }
 
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
 
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
 }
