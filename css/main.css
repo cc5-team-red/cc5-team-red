@@ -48,12 +48,22 @@ body {
 .main-container {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-  width: 100%;
+  padding: 0 100px;
+}
+
+.left-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
 }
 
 .mobile-display-container {
   display: none;
+  width: auto;
+}
+
+.mobile-display-container img {
+  width: 100%;
 }
 
 .footer-container {
@@ -107,13 +117,10 @@ body {
   margin-top: 10px;
 }
 
-.section_indent {
-  margin-left: 30px;
-}
-
-.section_marginBottom {
+.container{
   margin-bottom: 30px;
 }
+
 .github {
   margin-top: 1px;
 }
@@ -146,20 +153,21 @@ body {
   .mobile-display-container {
     display: block;
   }
+
+  .main-container {
+    padding: 0 10px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
-  /* .right-container {
-      display: none;
+  .right-container {
+      display: block;
   }
 
   .mobile-display-container {
-    display: block;
-  } */
-/* ====================
-  WIDE: CSS3 Effects
-  ==================== */
-
+    display: none;
+  }
+  
   .header-container {
     -webkit-box-shadow: 0 5px 10px #aaa;
         -moz-box-shadow: 0 5px 10px #aaa;
@@ -177,6 +185,9 @@ body {
   }
   .mobile-display-container {
     display: block;
+  }
+  .main-container {
+    padding: 0 10px;
   }
 }
 
