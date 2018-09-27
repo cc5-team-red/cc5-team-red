@@ -110,6 +110,11 @@ body {
   margin-left: 10px;
 }
 
+.sub-text {
+    font-weight: 400;	
+    font-size: 1.5em;
+}
+
 .getTheApp-image {
   width: 180px;
   margin-top: 10px;
@@ -143,7 +148,7 @@ body {
   Media Queries
   ========================================================================== */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 767px) {
   .right-container {
     display: none;
   }
@@ -160,6 +165,7 @@ body {
 @media only screen and (min-width: 768px) {
   .right-container {
       display: block;
+      margin-top: 30px;
   }
 
   .mobile-display-container {
@@ -175,7 +181,7 @@ body {
 
 @media only screen
   and (min-device-width: 320px) 
-  and (max-device-width: 480px)
+  and (max-device-width: 767px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
   .right-container {
